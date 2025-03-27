@@ -1,0 +1,40 @@
+March 14/2025
+
+// npm init
+// Download Nodemon
+// npm install cross-env --save-dev -> to change env 
+// then added into package.json 
+"scripts": {
+  "start": "nodemon server.js",
+  "start:prod": "cross-env NODE_ENV=production nodemon server.js"
+}
+
+
+If you want to connect to the MongoDBCompass then
+mongodb+srv://xaingraphics69:6K5ENvSme5cF0oaB@firstcluster.sl40m.mongodb.net/
+
+//Added config variables in config.env file.
+
+// Connected to MongoDB
+// Made userModel, productModel
+// Made ProductController,userController,authController,errorController.
+// Made appError to handle errors.
+Made catchAsync.
+
+
+// Made authValidator,email.
+
+
+
+March 15/2025
+Make SignUp form,signIn form
+// Add edit,delete,update functionality to the users,products.
+// Make protected Routes.
+// Create Product Table, User Table
+// Create product form,user creation form
+
+// If I don't do 
+const dotenv = require('dotenv');
+dotenv.config({ path: './config.env' });
+these commands in Server.js then I will get error of undefined,the env variables will not be available in other files.
+

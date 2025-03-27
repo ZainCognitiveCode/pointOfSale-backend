@@ -1,0 +1,49 @@
+{
+  "name": "pointofsale",
+  "version": "1.0.0",
+  "description": "It is the project which will be used for out assessment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "env-cmd -f .env.local nodemon server.js",
+    "uat": "env-cmd -f .env.uat node server.js",
+    "prod": "env-cmd -f .env.production node server.js"
+  },
+  "author": "Zain Ul Abideen",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.22.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "hpp": "^0.2.3",
+    "html-to-text": "^9.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "morgan": "^1.10.0",
+    "ms": "^2.1.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9",
+    "pug": "^3.0.3",
+    "sharp": "^0.33.5",
+    "slugify": "^1.6.6",
+    "validator": "^13.12.0",
+    "xss": "^1.0.15",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "change": "^0.0.0",
+    "cross-env": "^7.0.3",
+    "env": "^0.0.2",
+    "env-cmd": "^10.1.0",
+    "to": "^0.2.9"
+  }
+}
